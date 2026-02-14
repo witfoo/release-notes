@@ -12,12 +12,12 @@ WitFoo Agent v1.7.2 is a maintenance release. Detailed commit history and PR des
 
 | Test Suite | Status | Date |
 |---|---|---|
-| System Tests (Integration / AIO) | Results pending | 2026-02-14 |
+| System Tests (AIO) | Results pending | 2026-02-14 |
 | E2E Tests (Playwright UI) | Results pending | 2026-02-14 |
 
 ### Test Coverage Summary
 
-System integration tests and Playwright end-to-end UI tests were executed as part of the release pipeline on 2026-02-14. Conclusive pass/fail results were not reported at the time of release note generation. Teams should verify test status in the CI dashboard before promoting this build to production environments.
+System integration tests and Playwright-based end-to-end UI tests were executed as part of the release pipeline on 2026-02-14. Conclusive pass/fail results were not reported in the available test metadata. Teams are advised to verify test outcomes in the CI dashboard before promoting this release to production environments.
 
 ## Breaking Changes
 
