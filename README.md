@@ -20,3 +20,4 @@ Each release includes:
 ---
 
 *Automatically maintained by the WitFoo release pipeline.*
+- [WFA v1.7.1](releases/wfa-1.7.1.md)
