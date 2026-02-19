@@ -15,6 +15,9 @@ Each release includes:
 
 ## Releases
 
+### WitFoo Empathetic Parsers
+- [Empathetic Parsers — February 2026](releases/empathetic-parsers-2026.02.19.md)
+
 ### WitFoo Management Console
 - [Management Console v1.4.0](https://github.com/witfoo/release-notes/releases/tag/console-ui-v1.4.0)
 
