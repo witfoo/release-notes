@@ -60,3 +60,4 @@ Each release includes:
 ---
 
 *Automatically maintained by the WitFoo release pipeline.*- [Empathetic Parsers 2026.02.19-183017](releases/empathetic-parsers-2026.02.19-183017.md)
+- [Empathetic Parsers 2026.02.19-201318](releases/empathetic-parsers-2026.02.19-201318.md)
