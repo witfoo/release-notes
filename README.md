@@ -15,6 +15,9 @@ Each release includes:
 
 ## Releases
 
+### WitFoo Management Console
+- [Management Console v1.4.0](https://github.com/witfoo/release-notes/releases/tag/console-ui-v1.4.0)
+
 ### WitFoo Conductor
 - [Conductor v1.4.0](releases/conductor-1.4.0.md)
 
