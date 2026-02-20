@@ -63,3 +63,4 @@ Each release includes:
 - [Empathetic Parsers 2026.02.19-201318](releases/empathetic-parsers-2026.02.19-201318.md)
 - [Empathetic Parsers 2026.02.19-221127](releases/empathetic-parsers-2026.02.19-221127.md)
 - [Empathetic Parsers 2026.02.20-002104](releases/empathetic-parsers-2026.02.20-002104.md)
+- [Empathetic Parsers 2026.02.20-043914](releases/empathetic-parsers-2026.02.20-043914.md)
