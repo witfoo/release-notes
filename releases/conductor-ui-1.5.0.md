@@ -4,7 +4,7 @@
 
 ## Changes
 
-- feat(ci): add release notes automation and version tracking
+- fix: remove unused imports and add property injection validation (PR102)
 
 ---
 *Release notes auto-generated from witfoo-dev/conductor-ui CI pipeline*
