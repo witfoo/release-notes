@@ -4,7 +4,7 @@
 
 ## Changes
 
-- PR139: 18 integration settings forms + search/filter UI
+- fix: bump common to v1.4.5 for ConsoleTLSSkipVerify support
 
 ---
 *Release notes auto-generated from witfoo-dev/conductor-ui CI pipeline*
