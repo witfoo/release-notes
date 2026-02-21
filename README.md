@@ -2,7 +2,7 @@
 
 This repository contains release notes for WitFoo products.
 
-## WitFoo Analytics
+## Location
 
 Release notes are organized by version in the `releases/` directory.
 
