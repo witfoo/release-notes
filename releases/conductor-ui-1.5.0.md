@@ -4,7 +4,7 @@
 
 ## Changes
 
-- fix: update common to v1.4.4 for ConsoleTLSSkipVerify support
+- PR139: 18 integration settings forms + search/filter UI
 
 ---
 *Release notes auto-generated from witfoo-dev/conductor-ui CI pipeline*
