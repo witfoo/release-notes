@@ -4,7 +4,7 @@
 
 ## Changes
 
-- fix: bump common to v1.4.5 for ConsoleTLSSkipVerify support
+- fix: security hardening - unused vars, log injection sanitization (CodeQL)
 
 ---
 *Release notes auto-generated from witfoo-dev/conductor-ui CI pipeline*
