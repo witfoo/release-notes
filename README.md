@@ -6,13 +6,6 @@ This repository contains release notes for WitFoo products.
 
 Release notes are organized by version in the `releases/` directory.
 
-Each release includes:
-- Summary of changes
-- New features and improvements
-- Bug fixes
-- Quality assurance test results
-- Contributors
-
 ## Newest Releases
 
 ### WitFoo Empathetic Parsers
