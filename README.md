@@ -21,3 +21,4 @@ Release notes are organized by version in the `releases/` directory.
 - [WFA v1.8.10](releases/wfa-1.8.10.md)
 
 **WitFoo Conductor**: [v1.4.10](releases/conductor-ui-1.4.10.md)
+**WitFoo Analytics**: [v0.9.0](releases/0.9.0.md)
