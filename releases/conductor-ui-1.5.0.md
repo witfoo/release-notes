@@ -1,10 +1,10 @@
 # WitFoo Management Console (Conductor UI) v1.5.0
 
-**Release Date:** 2026-02-20
+**Release Date:** 2026-02-21
 
 ## Changes
 
-- fix: remove unused imports and add property injection validation (PR102)
+- fix: update common to v1.4.4 for ConsoleTLSSkipVerify support
 
 ---
 *Release notes auto-generated from witfoo-dev/conductor-ui CI pipeline*
