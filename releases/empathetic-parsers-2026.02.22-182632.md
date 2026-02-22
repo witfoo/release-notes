@@ -8,9 +8,6 @@
 | Field | Value |
 |-------|-------|
 | **Parser Name** | `portaineragent` |
-| **Stream Names** | GenericLog |
-| **Message Types** | Unknown |
-| **Source Organization** | witfoo-soc |
 | **Entrypoint** | udp_source |
 
 ## About Empathetic Parsers
@@ -20,8 +17,6 @@ unknown log messages from customer environments. Using Claude Opus 4.6, the syst
 analyzes sample messages, generates a parser with fingerprint patterns, validates it
 through quality gates (compilation, unit tests, lint, fingerprint, registration),
 and pushes it directly to the signal-parser repository.
-
-**Total Parser Count:** 0
 
 ## Quality Gates
 
