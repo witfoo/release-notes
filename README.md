@@ -13,3 +13,4 @@ Release notes are organized by version in the `releases/` directory.
 **WitFoo Analytics**: [v0.9.1](releases/0.9.1.md)
 - [Empathetic Parsers 2026.02.22-182632](releases/empathetic-parsers-2026.02.22-182632.md)
 - [Empathetic Parsers 2026.02.22-185441](releases/empathetic-parsers-2026.02.22-185441.md)
+- [Empathetic Parsers 2026.02.22-190432](releases/empathetic-parsers-2026.02.22-190432.md)
