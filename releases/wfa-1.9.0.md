@@ -1,9 +1,10 @@
 # WitFoo Agent (WFA) v1.9.0
 
-**Released:** 2026-02-23 00:48:11 UTC
+**Released:** 2026-02-23 01:13:53 UTC
 
 ## Changes
 
+c2776807 fix: resolve DEB file conflict on /witfoo/wfa/bin/systemd/stop.sh
 700cc561 fix: RPM publish finds RPMs in artifact subdirectories
 48c5b363 fix: APT publish uses flat repo layout matching existing structure
 f94fbcb5 fix: create APT repo dirs before copy, shallow clone for speed
@@ -23,7 +24,6 @@ ca00f6fd fix: add wfa-helper as dependency of wfa DEB package
 6418581f fix: metrics-prom-bridge and Grafana Agent respect IsTLSDisabled()
 3564aad1 chore: update common dependency to v1.4.6
 80208d5c fix: update DisableTLS references and set version 1.8.31
-4e84b12e fix: gofmt formatting on analytics and nodestack files
 
 ## Packages
 
