@@ -18,3 +18,4 @@ Release notes are organized by version in the `releases/` directory.
 
 **WitFoo Agent (WFA)**: [v1.9.6](releases/wfa-1.9.6.md)
 - [Empathetic Parsers 2026.02.23-030642](releases/empathetic-parsers-2026.02.23-030642.md)
+- [Empathetic Parsers 2026.02.23-044713](releases/empathetic-parsers-2026.02.23-044713.md)
