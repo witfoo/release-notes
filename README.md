@@ -12,3 +12,4 @@ Release notes are organized by version in the `releases/` directory.
 - **WitFoo Console**: [v1.5.0](releases/console-1.5.0.md)
 - **WitFoo Analytics**: [v0.9.1](releases/0.9.1.md)
 - **WitFoo Agent (WFA)**: [v1.9.9](releases/wfa-1.9.9.md)
+- [Empathetic Parsers 2026.02.23-062929](releases/empathetic-parsers-2026.02.23-062929.md)
