@@ -1,10 +1,12 @@
 # WitFoo Agent (WFA) v1.9.0
 
-**Released:** 2026-02-22 23:50:19 UTC
+**Released:** 2026-02-23 00:00:39 UTC
 
 ## Changes
 
+16a1f12a fix: handle base64-encoded GPG keys in release workflow
 1cd32faa fix: align release workflow secrets with repo secret names
+dc578e39 fix: align release workflow secrets with repo secret names
 6481f127 chore: update version to 1.9.0
 b18fb4f8 fix: gofmt alignment in initialization_test.go
 b73a4136 fix: update common to v1.4.8 (includes OrgID field)
@@ -22,8 +24,6 @@ ca00f6fd fix: add wfa-helper as dependency of wfa DEB package
 d2317a3c fix: rename analytics.AnalyticsConfig to Config (revive stutter)
 210574c2 chore: bump version to 1.8.35
 05ed7894 fix: resolve duplicate constants and type mismatches in nodestack
-a837c227 chore: update dependencies and bump versions
-28f88762 chore: update dependencies and bump versions
 
 ## Packages
 
