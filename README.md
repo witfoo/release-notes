@@ -11,4 +11,4 @@ Release notes are organized by version in the `releases/` directory.
 - **WitFoo Conductor**: [v1.5.0](releases/conductor-1.5.0.md)
 - **WitFoo Console**: [v1.5.0](releases/console-1.5.0.md)
 - **WitFoo Analytics**: [v0.9.1](releases/0.9.1.md)
-- **WitFoo Agent (WFA)**: [v1.9.8](releases/wfa-1.9.8.md)
+- **WitFoo Agent (WFA)**: [v1.9.9](releases/wfa-1.9.9.md)
