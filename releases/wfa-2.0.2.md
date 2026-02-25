@@ -1,9 +1,10 @@
 # WitFoo Agent (WFA) v2.0.2
 
-**Released:** 2026-02-25 19:22:40 UTC
+**Released:** 2026-02-25 20:05:00 UTC
 
 ## Changes
 
+bcb7ed07 fix: update common to v1.5.3 for PruneChildren fix
 adbac21a feat: image update watcher resilience for post-startup stability
 e7a8d212 feat: AIO+Conductor startup resilience (PR163e)
 ba9d5a24 chore: update version to 2.0.0
@@ -23,7 +24,6 @@ f1be43ad chore: update common pin (bcrypt Load fix)
 add242aa fix: update nats.go dependency to v1.49.0
 202d4a6a fix: add missing docker import in roles_test.go
 0af3c0d5 feat: add analytics exporter config seeding for AIO+Conductor mode
-bd33f43a fix: use uuid.Nil comparison for license key checks instead of String() == ""
 
 ## Packages
 
