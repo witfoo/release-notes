@@ -1,9 +1,10 @@
 # WitFoo Agent (WFA) v2.0.5
 
-**Released:** 2026-02-25 23:49:45 UTC
+**Released:** 2026-02-26 00:06:49 UTC
 
 ## Changes
 
+b1377233 fix: use container DNS name and disable TLS for internal conductor-ui
 04366968 feat: PR165 AIO+Conductor SSO — dual-network, REVERSE_PROXY_MODE, JWT_SECRET
 5fbc1b48 fix: update common to v1.5.4, bump version to 2.0.4
 4ff51c1e bump: version 2.0.3 for CDN cache invalidation
@@ -23,7 +24,6 @@ c87d34e3 fix: generate proper CA+leaf cert chain for local TLS
 05493112 fix: dynamic TLS cert generation, legacy path migration
 f1be43ad chore: update common pin (bcrypt Load fix)
 8fe8bb2a chore: update common pin (bcrypt env var fix)
-88e7f314 fix: disable swap in init scripts, fix data path mismatch
 
 ## Packages
 
