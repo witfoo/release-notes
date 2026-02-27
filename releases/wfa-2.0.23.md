@@ -1,9 +1,11 @@
 # WitFoo Agent (WFA) v2.0.23
 
-**Released:** 2026-02-27 01:21:14 UTC
+**Released:** 2026-02-27 04:19:10 UTC
 
 ## Changes
 
+f5998f10 feat: add DisableTLS and ReverseProxyPort to analytics configuration
+81662dad chore: update version to 2.0.23
 4640edae Fix: demo login button — propagate IsDemo to WF_DEMO_MODE on analytics-api-svc
 a281e7bb fix: prioritize configured NodeHostname over OS hostname in metrics and logging services
 ec978a1b Fix: demo mode login button and demo-data Cassandra connectivity
@@ -22,8 +24,6 @@ bb4611da Fix: use HTTPS for CONDUCTOR_URL (conductor-ui has TLS enabled)
 7400af40 feat: TOFU fingerprint trust store for MITM detection
 5d118457 Update common v1.5.7: fix remoteImageDigest Docker Hub auth
 d1e3e73a Update common v1.5.6: fix GHCR credentials sent to Docker Hub
-b58ea8c0 Fix gofmt formatting and memory budget overflow on small systems
-73bb21fa PR165: Add CONDUCTOR_URL, SecondaryNetworks, and proxy-mode env vars
 
 ## Packages
 
