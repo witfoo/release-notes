@@ -1,0 +1,32 @@
+# WitFoo Agent (WFA) v2.0.32
+
+**Released:** 2026-03-05 05:28:10 UTC
+
+## Changes
+
+148ed95b fix: zero-touch AIO+Conductor bootstrap reliability
+390dc0d2 chore: update dependencies and bump versions
+68deedb9 chore: update dependencies and bump versions
+186d17f6 refactor: update ExtractCerts function to return a boolean indicating if certificates changed; adjust related calls and add tests for CertFingerprint
+fc311766 fix: add INCIDENT_ENGINE_URL to API container config
+7c5f6399 chore: update dependencies and bump versions
+671d3005 chore: update dependencies and bump versions
+7fa2a4b0 feat: add IntelAPIURL to analytics configuration and update environment variables for CyberGrid proxy
+e5366282 chore: update common dependency to v1.5.11
+5cf4ef43 chore: update dependencies and bump versions
+2cdf59b8 chore: update common v1.5.9 → v1.5.10, fix Docker build submodule .git reference
+f946fb61 chore: update dependencies and bump versions
+58ff00e3 feat(PR166b): conductor memory budgets with GOMEMLIMIT
+7ed3ca10 feat(PR173): TOFU trust reset CLI + remote job agent integration
+480e78ec chore: update common to v1.5.9 (broadcast flow metric fix)
+2289b880 chore: update common dependency to v1.5.8
+3847e4e6 chore: update dependencies and bump versions
+7bd87bf4 fix: update appliance ID requirement to include all roles for tracking and console registration
+87f4c4d4 fix: TLS client cert generation, supportpack HTTP, data node UUID, standalone conductor exporter
+e87f75bf chore: update dependencies and bump versions
+
+## Packages
+
+- **DEB:** Available in WitFoo APT repository
+- **RPM (RHEL 9):** Available in WitFoo RPM repository
+- **RPM (RHEL 10):** Available in WitFoo RPM repository

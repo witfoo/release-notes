@@ -11,5 +11,5 @@ Release notes are organized by version in the `releases/` directory.
 - **WitFoo Conductor**: [v1.6.0](releases/conductor-1.6.0.md)
 - **WitFoo Console**: [v1.6.0](releases/console-1.6.0.md)
 - **WitFoo Analytics**: [v0.9.2](releases/0.9.2.md)
-- **WitFoo Agent (WFA)**: [v2.0.31](releases/wfa-2.0.31.md)
+- **WitFoo Agent (WFA)**: [v2.0.32](releases/wfa-2.0.32.md)
 - [Empathetic Parsers 2026.02.23-062929](releases/empathetic-parsers-2026.02.23-062929.md)
