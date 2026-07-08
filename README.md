@@ -13,3 +13,4 @@ Release notes are organized by version in the `releases/` directory.
 - **WitFoo Console**: [v1.9.0](releases/console-1.9.0.md)
 - **WitFoo Agent (WFA)**: [v2.2.5](releases/wfa-2.2.5.md)
 - [Parsers 2026.07.01-144526](releases/parser-snapshot-2026.07.01-144526.md)
+- [Parsers 2026.07.08-105110](releases/parser-snapshot-2026.07.08-105110.md)
