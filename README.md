@@ -19,3 +19,4 @@ Release notes are organized by version in the `releases/` directory.
 - [Parsers 2026.07.15-105320](releases/parser-snapshot-2026.07.15-105320.md)
 - [Parsers 2026.08.02-141543](releases/parser-snapshot-2026.08.02-141543.md)
 - [Parsers 2026.08.03-064455](releases/parser-snapshot-2026.08.03-064455.md)
+- [Parsers 2026.08.05-161608](releases/parser-snapshot-2026.08.05-161608.md)
