@@ -1,0 +1,18 @@
+# WitFoo Agent (WFA) v2.5.5
+
+**Released:** 2026-11-12
+
+## What changed
+
+- `wfa mcp-relay` can use the relay's single address (the universal MCP URL) as the appliance's mcp_public_url when the appliance's Analytics API is at 1.2.1 or later and the relay's metadata names the relay and its sign-in address; otherwise the appliance keeps its own address and `wfa mcp-relay status` says why. `wfa mcp-relay sign-in universal|handle` switches between the two.
+- Automatic updates on Ubuntu include the distribution's -updates pocket: the -updates origin in 50unattended-upgrades is written correctly, and a node whose file was written earlier is corrected when wfad starts after the upgrade, if auto_update is on (or when it is next turned on, or by `sudo wfa autoupdate reconcile`). Ubuntu appliances whose automatic updates were set up by WFA 2.4.4 to 2.5.4 did not receive the distribution's -updates pocket automatically; security updates were applied as usual. The next automatic run after 2.5.5 is installed brings them current, or run `sudo apt-get update && sudo unattended-upgrade` once. To check a node: `grep -n '":-updates";' /etc/apt/apt.conf.d/50unattended-upgrades` prints a line only on an affected node.
+- Packages are signed with the WitFoo signing keys.
+- On AIO, AIO-Conductor, Conductor, Console, Processing and Data nodes the certificates group (wfcerts) holds the TLS key server.key, and log sizing keeps the earlier rsyslog backup when it cannot tell whether the new one is present.
+- On a host where the certificates group (wfcerts) cannot be created or resolved, wfad logs a warning that says how to create it; until it exists, Grafana and Prometheus on a node with local metrics cannot read the TLS key.
+- `wfa update rollback` restores container image versions, reinstalls the previous WFA package when the update carried one, and leaves node.json as it is: an appliance that uses the relay's single address and is rolled back to an Analytics release below 1.2.1 should run `wfa mcp-relay sign-in handle`, and `wfa mcp-relay status` shows when that applies.
+- The broker's data buffer on a Conductor or AIO-Conductor follows the role's default (Conductor 4096 MB, AIO-Conductor 2048 MB; broker_max_data_mb is no longer set to 1024 by the wizard): `wfa configure`, `wfa fetch` and the offline `wfa configure --license-file` keep an existing value and otherwise write none, so the role's default applies. A node that holds exactly 1024 is moved to the role's default by `wfa configure` when the broker's disk (/data/nats) has twice the new size free, and the command says what it did. Installing 2.5.5 does not change node.json: wfad logs a warning at each start on a Conductor or AIO-Conductor that holds 1024, and broker_max_data_mb can be raised from the Console or by re-running `wfa configure`.
+- Support packs (`wfa support`, staff-requested jobs and automatic problem reports) are sized to upload reliably: a pack holds the recent part of each log (the current file, the first rotation and the newest dated rotation, up to 16 MiB each), a size-limited text copy of the journal and no binary journal, and is limited in size. MANIFEST.txt in the pack lists what was left out, cut, dropped or possibly incomplete. A pack is uploaded as a stream with a time limit that follows its size; a pack refused as too large is replaced once by a smaller one (an automatic problem report is then filed without its pack). The pack file is removed when the job ends.
+
+## Install or upgrade
+
+The packages are in the WitFoo apt and rpm repositories. An appliance with automatic updates enabled (`auto_update: true`) receives this release at its next update check.
